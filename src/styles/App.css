@@ -1,0 +1,65 @@
+@import "./PersonalInfo.css";
+
+.upper-background{
+  height: 20%;
+  background-image: url("/images/bg-sidebar-mobile.svg");
+  background-clip: border-box;
+}
+.lower-background{
+  height: 70%;
+  background-color:hsl(217, 100%, 97%);
+}
+.content{
+  position: absolute;
+  height: 90%;
+  background-color: transparent;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button.li{
+  all: unset;
+}
+.pages{
+  display: flex;
+  height: 12%;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  gap: 0.9em;
+}
+.page{
+  height: 30px;
+  width: 30px;
+  font-weight: 500;
+  border-radius: 100%;
+  background-color: transparent;
+  color: white;
+}
+.page:active{
+  background-color: hsl(206, 94%, 87%);
+  color: black;
+}
+
+form{
+  width: 90%;
+  padding: 1em;
+  background-color: white;
+  border-radius: 8px;
+}
+fieldset{
+  border: 0;
+}
+.section-title{
+  font-weight: 700;
+  font-size: 1.5em;
+  color: hsl(231, 2%, 20%);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+/* Cool gray: 
+Light gray:background: hsl(229, 24%, 87%)
+Magnolia:background: hsl(217, 100%, 97%)
+Alabaster:background: hsl(231, 100%, 99%)
+White:background: hsl(0, 0%, 100%) */

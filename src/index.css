@@ -1,0 +1,17 @@
+*, *::before, *::after{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  height: 100vh;
+}
+
+#root{
+  height: 100%;
+}
+
+.main{
+  height: 100%;
+}
